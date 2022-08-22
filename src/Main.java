@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        IntEqualityPrinter.printEqual(2, 2, 2);
+        IntEqualityPrinter.printEqual(-1, 2, 3);
+        IntEqualityPrinter.printEqual(25, 34, 3);
     }
 }
